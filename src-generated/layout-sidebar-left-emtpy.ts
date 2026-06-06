@@ -1,0 +1,1 @@
+export const lxLayoutSidebarLeftEmtpy = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" d="M1.5 5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2zM5.5 3v10"/></svg>`;
