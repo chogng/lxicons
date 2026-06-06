@@ -38,7 +38,7 @@ export { lxFileText } from './file-text.js';
 export { lxFilter } from './filter.js';
 export { lxGear } from './gear.js';
 export { lxInfo } from './info.js';
-export { lxLayoutSidebarLeftEmtpy } from './layout-sidebar-left-emtpy.js';
+export { lxLayoutSidebarLeftEmpty } from './layout-sidebar-left-empty.js';
 export { lxLayoutSidebarLeftOff } from './layout-sidebar-left-off.js';
 export { lxLayoutSidebarLeft } from './layout-sidebar-left.js';
 export { lxLayoutSidebarRightEmpty } from './layout-sidebar-right-empty.js';
