@@ -17,6 +17,7 @@ export { lxChevronLeft } from './chevron-left.js';
 export { lxChevronRight } from './chevron-right.js';
 export { lxChevronUp } from './chevron-up.js';
 export { lxClose } from './close.js';
+export { lxCopy } from './copy.js';
 export { lxCsvFilled } from './csv-filled.js';
 export { lxCsvGreen } from './csv-green.js';
 export { lxCsv } from './csv.js';
