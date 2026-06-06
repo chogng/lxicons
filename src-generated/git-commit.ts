@@ -1,0 +1,1 @@
+export const lxGitCommit = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M1.5 8H6m0 0a2 2 0 1 0 4 0M6 8a2 2 0 1 1 4 0m0 0h4.713"/></svg>`;
