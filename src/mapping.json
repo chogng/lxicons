@@ -80,19 +80,7 @@
     "name": "copy"
   },
   "60021": {
-    "name": "csv"
-  },
-  "60022": {
-    "name": "csv-filled"
-  },
-  "60023": {
-    "name": "csv-green"
-  },
-  "60024": {
-    "name": "csv-letter"
-  },
-  "60025": {
-    "name": "csv-letter-filled"
+    "name": "copy-code"
   },
   "60026": {
     "name": "customize",
@@ -372,19 +360,17 @@
   "60096": {
     "name": "cursor"
   },
+  "60097": {
+    "name": "cursor-filled"
+  },
   "60098": {
     "name": "lightning"
   },
   "60099": {
-    "name": "pass",
-    "keywords": [
-      "circle-check"
-    ]
-  },
-  "60100": {
-    "name": "pass-filled",
-    "keywords": [
-      "circle-check-filled"
+    "name": "lightning-filled",
+    "aliases": [
+      "fast",
+      "flash"
     ]
   },
   "60101": {
@@ -433,9 +419,6 @@
   },
   "60110": {
     "name": "bell-slash"
-  },
-  "60111": {
-    "name": "cursor-filled"
   },
   "60112": {
     "name": "eye",
@@ -527,13 +510,6 @@
   "60124": {
     "name": "library"
   },
-  "60125": {
-    "name": "lightning-filled",
-    "aliases": [
-      "fast",
-      "flash"
-    ]
-  },
   "60126": {
     "name": "quote",
     "keywords": [
@@ -596,5 +572,32 @@
   },
   "60141": {
     "name": "zoom-out"
+  },
+  "60142": {
+    "name": "pass",
+    "keywords": [
+      "circle-check"
+    ]
+  },
+  "60143": {
+    "name": "pass-filled",
+    "keywords": [
+      "circle-check-filled"
+    ]
+  },
+  "60145": {
+    "name": "csv"
+  },
+  "60146": {
+    "name": "csv-filled"
+  },
+  "60147": {
+    "name": "csv-green"
+  },
+  "60148": {
+    "name": "csv-letter"
+  },
+  "60149": {
+    "name": "csv-letter-filled"
   }
 }

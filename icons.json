@@ -261,37 +261,44 @@
       "keywords": []
     },
     {
+      "name": "copy-code",
+      "file": "./src/icons/copy-code.svg",
+      "codepoint": "60021",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "csv",
       "file": "./src/icons/csv.svg",
-      "codepoint": "60021",
+      "codepoint": "60145",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "csv-filled",
       "file": "./src/icons/csv-filled.svg",
-      "codepoint": "60022",
+      "codepoint": "60146",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "csv-green",
       "file": "./src/icons/csv-green.svg",
-      "codepoint": "60023",
+      "codepoint": "60147",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "csv-letter",
       "file": "./src/icons/csv-letter.svg",
-      "codepoint": "60024",
+      "codepoint": "60148",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "csv-letter-filled",
       "file": "./src/icons/csv-letter-filled.svg",
-      "codepoint": "60025",
+      "codepoint": "60149",
       "aliases": [],
       "keywords": []
     },
@@ -305,7 +312,7 @@
     {
       "name": "cursor-filled",
       "file": "./src/icons/cursor-filled.svg",
-      "codepoint": "60111",
+      "codepoint": "60097",
       "aliases": [],
       "keywords": []
     },
@@ -680,7 +687,7 @@
     {
       "name": "lightning-filled",
       "file": "./src/icons/lightning-filled.svg",
-      "codepoint": "60125",
+      "codepoint": "60099",
       "aliases": [
         "fast",
         "flash"
@@ -767,7 +774,7 @@
     {
       "name": "pass",
       "file": "./src/icons/pass.svg",
-      "codepoint": "60099",
+      "codepoint": "60142",
       "aliases": [],
       "keywords": [
         "circle-check"
@@ -776,7 +783,7 @@
     {
       "name": "pass-filled",
       "file": "./src/icons/pass-filled.svg",
-      "codepoint": "60100",
+      "codepoint": "60143",
       "aliases": [],
       "keywords": [
         "circle-check-filled"

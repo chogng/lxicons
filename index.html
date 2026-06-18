@@ -164,6 +164,12 @@
       transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
     }
 
+    .action img {
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+
     .action:hover {
       transform: translateY(-1px);
       border-color: rgba(12, 123, 147, 0.38);
@@ -172,6 +178,16 @@
 
     .action:active {
       transform: translateY(0);
+    }
+
+    .action.is-success {
+      border-color: rgba(12, 123, 147, 0.5);
+      background: rgba(12, 123, 147, 0.12);
+    }
+
+    .action.is-error {
+      border-color: rgba(196, 69, 54, 0.5);
+      background: rgba(196, 69, 54, 0.12);
     }
 
     .status {
@@ -244,25 +260,39 @@
     }
 
     async function handleAction(icon, action, button) {
-      const original = button.textContent;
-
       try {
         if (action === 'name') {
           await copyText(icon.name);
-          button.textContent = 'Copied name';
+          button.classList.add('is-success');
         } else {
           const svg = await getSvgText(icon);
           await copyText(svg);
-          button.textContent = 'Copied SVG';
+          button.classList.add('is-success');
         }
       } catch (error) {
-        button.textContent = 'Copy failed';
+        button.classList.add('is-error');
         console.error(error);
       } finally {
         window.setTimeout(() => {
-          button.textContent = original;
+          button.classList.remove('is-success', 'is-error');
         }, 1200);
       }
+    }
+
+    function createActionButton(iconName, label, onClick) {
+      const button = document.createElement('button');
+      button.className = 'action';
+      button.type = 'button';
+      button.title = label;
+      button.setAttribute('aria-label', label);
+
+      const img = document.createElement('img');
+      img.alt = '';
+      img.src = `./src/icons/${iconName}.svg`;
+      button.appendChild(img);
+      button.addEventListener('click', onClick);
+
+      return button;
     }
 
     function getSearchTerms(icon) {
@@ -320,17 +350,8 @@
         const actions = document.createElement('div');
         actions.className = 'actions';
 
-        const copyName = document.createElement('button');
-        copyName.className = 'action';
-        copyName.type = 'button';
-        copyName.textContent = 'Copy icon name';
-        copyName.addEventListener('click', () => handleAction(icon, 'name', copyName));
-
-        const copySvg = document.createElement('button');
-        copySvg.className = 'action';
-        copySvg.type = 'button';
-        copySvg.textContent = 'Copy SVG';
-        copySvg.addEventListener('click', () => handleAction(icon, 'svg', copySvg));
+        const copyName = createActionButton('copy', 'Copy icon name', () => handleAction(icon, 'name', copyName));
+        const copySvg = createActionButton('copy-code', 'Copy SVG', () => handleAction(icon, 'svg', copySvg));
 
         actions.append(copyName, copySvg);
         card.append(preview, label, actions);

@@ -32,6 +32,7 @@ export { lxClose } from './close.js';
 export { lxCode } from './code.js';
 export { lxCommand } from './command.js';
 export { lxCopy } from './copy.js';
+export { lxCopyCode } from './copy-code.js';
 export { lxCsv } from './csv.js';
 export { lxCsvFilled } from './csv-filled.js';
 export { lxCsvGreen } from './csv-green.js';
