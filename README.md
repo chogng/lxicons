@@ -40,7 +40,7 @@ npm run build
 
 Run `npm run build` before publishing. The static site is served from `index.html` and `icons.json`, and it reads the SVG files from `src/icons/`.
 
-Static preview: [https://chogng.github.io/cogicon/](https://chogng.github.io/cogicon/)
+Static preview: [https://chogng.github.io/lxicons/](https://chogng.github.io/lxicons/)
 
 ## Update packages
 
