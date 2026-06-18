@@ -1,9 +1,8 @@
 {
   "60000": {
-    "name": "plus",
+    "name": "add",
     "aliases": [
-      "add",
-      "zoom-in"
+      "plus"
     ],
     "keywords": [
       "action",
@@ -14,9 +13,10 @@
     ]
   },
   "60001": {
-    "name": "plus-small",
+    "name": "add-small",
     "aliases": [
-      "add-small"
+      "plus-small",
+      "zoom-in-small"
     ],
     "keywords": [
       "action"
@@ -26,10 +26,7 @@
     "name": "agent"
   },
   "60003": {
-    "name": "agent-filled",
-    "keywords": [
-      "agent"
-    ]
+    "name": "agent-filled"
   },
   "60004": {
     "name": "analysis"
@@ -53,16 +50,10 @@
     "name": "book"
   },
   "60011": {
-    "name": "browser-explore",
-    "keywords": [
-      "browser"
-    ]
+    "name": "browser-explore"
   },
   "60012": {
-    "name": "browser-web",
-    "keywords": [
-      "browser"
-    ]
+    "name": "browser-web"
   },
   "60013": {
     "name": "check"
@@ -92,36 +83,27 @@
     "name": "csv"
   },
   "60022": {
-    "name": "csv-filled",
-    "keywords": [
-      "csv"
-    ]
+    "name": "csv-filled"
   },
   "60023": {
-    "name": "csv-green",
-    "keywords": [
-      "csv"
-    ]
+    "name": "csv-green"
   },
   "60024": {
-    "name": "csv-letter",
-    "keywords": [
-      "csv"
-    ]
+    "name": "csv-letter"
   },
   "60025": {
-    "name": "csv-letter-filled",
-    "keywords": [
-      "csv"
-    ]
+    "name": "csv-letter-filled"
   },
   "60026": {
-    "name": "customize"
+    "name": "customize",
+    "aliases": [
+      "briefcase"
+    ]
   },
   "60027": {
     "name": "customize-filled",
-    "keywords": [
-      "customize"
+    "aliases": [
+      "briefcase-filled"
     ]
   },
   "60028": {
@@ -131,31 +113,19 @@
     "name": "docx"
   },
   "60030": {
-    "name": "docx-blue",
-    "keywords": [
-      "docx"
-    ]
+    "name": "docx-blue"
   },
   "60031": {
-    "name": "docx-filled",
-    "keywords": [
-      "docx"
-    ]
+    "name": "docx-filled"
   },
   "60032": {
     "name": "download"
   },
   "60033": {
-    "name": "download-box",
-    "keywords": [
-      "download"
-    ]
+    "name": "download-box"
   },
   "60034": {
-    "name": "download-tray",
-    "keywords": [
-      "download"
-    ]
+    "name": "download-tray"
   },
   "60035": {
     "name": "edit"
@@ -170,10 +140,7 @@
     "name": "export"
   },
   "60039": {
-    "name": "export-tray",
-    "keywords": [
-      "export"
-    ]
+    "name": "export-tray"
   },
   "60040": {
     "name": "file-text"
@@ -198,9 +165,6 @@
   },
   "60046": {
     "name": "layout-sidebar-left-empty",
-    "aliases": [
-      "layout-sidebar-left"
-    ],
     "keywords": [
       "layout-sidebar-left"
     ]
@@ -210,9 +174,6 @@
   },
   "60048": {
     "name": "layout-sidebar-left-off-empty",
-    "aliases": [
-      "layout-sidebar-left-off"
-    ],
     "keywords": [
       "layout-sidebar-left-off"
     ]
@@ -222,9 +183,6 @@
   },
   "60050": {
     "name": "layout-sidebar-right-empty",
-    "aliases": [
-      "layout-sidebar-right"
-    ],
     "keywords": [
       "layout-sidebar-right"
     ]
@@ -234,9 +192,6 @@
   },
   "60052": {
     "name": "layout-sidebar-right-off-empty",
-    "aliases": [
-      "layout-sidebar-right-off"
-    ],
     "keywords": [
       "layout-sidebar-right-off"
     ]
@@ -263,16 +218,10 @@
     "name": "pdf"
   },
   "60059": {
-    "name": "pdf-filled",
-    "keywords": [
-      "pdf"
-    ]
+    "name": "pdf-filled"
   },
   "60060": {
-    "name": "pdf-red",
-    "keywords": [
-      "pdf"
-    ]
+    "name": "pdf-red"
   },
   "60061": {
     "name": "pinned"
@@ -284,10 +233,7 @@
     "name": "projects"
   },
   "60064": {
-    "name": "projects-filled",
-    "keywords": [
-      "projects"
-    ]
+    "name": "projects-filled"
   },
   "60065": {
     "name": "refresh"
@@ -295,8 +241,7 @@
   "60066": {
     "name": "minus",
     "aliases": [
-      "remove",
-      "zoom-out"
+      "remove"
     ],
     "keywords": [
       "action",
@@ -418,12 +363,6 @@
       "xls"
     ]
   },
-  "60091": {
-    "name": "zoom-in-circle"
-  },
-  "60093": {
-    "name": "zoom-out-circle"
-  },
   "60094": {
     "name": "chat"
   },
@@ -502,6 +441,9 @@
     "name": "eye",
     "aliases": [
       "view",
+      "show"
+    ],
+    "keywords": [
       "preview"
     ]
   },
@@ -509,7 +451,8 @@
     "name": "eye-filled",
     "aliases": [
       "view-filled",
-      "preview-filled"
+      "preview-filled",
+      "show-off"
     ]
   },
   "60114": {
@@ -592,10 +535,16 @@
     ]
   },
   "60126": {
-    "name": "quote"
+    "name": "quote",
+    "keywords": [
+      "text"
+    ]
   },
   "60127": {
-    "name": "quotes"
+    "name": "quotes",
+    "keywords": [
+      "text"
+    ]
   },
   "60128": {
     "name": "star",
@@ -614,5 +563,38 @@
     "keywords": [
       "text"
     ]
+  },
+  "60131": {
+    "name": "calendar"
+  },
+  "60132": {
+    "name": "code"
+  },
+  "60133": {
+    "name": "database"
+  },
+  "60134": {
+    "name": "database-flat"
+  },
+  "60135": {
+    "name": "fold"
+  },
+  "60136": {
+    "name": "model"
+  },
+  "60137": {
+    "name": "model-filled"
+  },
+  "60138": {
+    "name": "openai"
+  },
+  "60139": {
+    "name": "unfold"
+  },
+  "60140": {
+    "name": "zoom-in"
+  },
+  "60141": {
+    "name": "zoom-out"
   }
 }

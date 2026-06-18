@@ -151,15 +151,6 @@ for (const iconName of iconNames) {
 
 const resolvedEntries = resolveAliases(entries);
 
-resolvedEntries.sort((left, right) => {
-  const nameCompare = left.name.localeCompare(right.name);
-  if (nameCompare !== 0) {
-    return nameCompare;
-  }
-
-  return left.codepoint - right.codepoint;
-});
-
 const syncedMapping = Object.fromEntries(
   resolvedEntries.map(entry => [String(entry.codepoint), serializeEntry(entry)])
 );

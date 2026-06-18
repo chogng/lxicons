@@ -8,6 +8,33 @@
       "keywords": []
     },
     {
+      "name": "add",
+      "file": "./src/icons/add.svg",
+      "codepoint": "60000",
+      "aliases": [
+        "plus"
+      ],
+      "keywords": [
+        "action",
+        "create",
+        "new",
+        "zoom",
+        "zoom-in"
+      ]
+    },
+    {
+      "name": "add-small",
+      "file": "./src/icons/add-small.svg",
+      "codepoint": "60001",
+      "aliases": [
+        "plus-small",
+        "zoom-in-small"
+      ],
+      "keywords": [
+        "action"
+      ]
+    },
+    {
       "name": "agent",
       "file": "./src/icons/agent.svg",
       "codepoint": "60002",
@@ -19,37 +46,44 @@
       "file": "./src/icons/agent-filled.svg",
       "codepoint": "60003",
       "aliases": [],
-      "keywords": [
-        "agent"
-      ]
+      "keywords": []
     },
     {
       "name": "align-center",
       "file": "./src/icons/align-center.svg",
       "codepoint": "60103",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "align-justified",
       "file": "./src/icons/align-justified.svg",
       "codepoint": "60104",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "list",
+        "text"
+      ]
     },
     {
       "name": "align-left",
       "file": "./src/icons/align-left.svg",
       "codepoint": "60105",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "align-right",
       "file": "./src/icons/align-right.svg",
       "codepoint": "60106",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "analysis",
@@ -133,18 +167,21 @@
       "file": "./src/icons/browser-explore.svg",
       "codepoint": "60011",
       "aliases": [],
-      "keywords": [
-        "browser"
-      ]
+      "keywords": []
     },
     {
       "name": "browser-web",
       "file": "./src/icons/browser-web.svg",
       "codepoint": "60012",
       "aliases": [],
-      "keywords": [
-        "browser"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "calendar",
+      "file": "./src/icons/calendar.svg",
+      "codepoint": "60131",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "chat",
@@ -203,6 +240,13 @@
       "keywords": []
     },
     {
+      "name": "code",
+      "file": "./src/icons/code.svg",
+      "codepoint": "60132",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "command",
       "file": "./src/icons/command.svg",
       "codepoint": "60019",
@@ -228,36 +272,28 @@
       "file": "./src/icons/csv-filled.svg",
       "codepoint": "60022",
       "aliases": [],
-      "keywords": [
-        "csv"
-      ]
+      "keywords": []
     },
     {
       "name": "csv-green",
       "file": "./src/icons/csv-green.svg",
       "codepoint": "60023",
       "aliases": [],
-      "keywords": [
-        "csv"
-      ]
+      "keywords": []
     },
     {
       "name": "csv-letter",
       "file": "./src/icons/csv-letter.svg",
       "codepoint": "60024",
       "aliases": [],
-      "keywords": [
-        "csv"
-      ]
+      "keywords": []
     },
     {
       "name": "csv-letter-filled",
       "file": "./src/icons/csv-letter-filled.svg",
       "codepoint": "60025",
       "aliases": [],
-      "keywords": [
-        "csv"
-      ]
+      "keywords": []
     },
     {
       "name": "cursor",
@@ -277,17 +313,33 @@
       "name": "customize",
       "file": "./src/icons/customize.svg",
       "codepoint": "60026",
-      "aliases": [],
+      "aliases": [
+        "briefcase"
+      ],
       "keywords": []
     },
     {
       "name": "customize-filled",
       "file": "./src/icons/customize-filled.svg",
       "codepoint": "60027",
+      "aliases": [
+        "briefcase-filled"
+      ],
+      "keywords": []
+    },
+    {
+      "name": "database",
+      "file": "./src/icons/database.svg",
+      "codepoint": "60133",
       "aliases": [],
-      "keywords": [
-        "customize"
-      ]
+      "keywords": []
+    },
+    {
+      "name": "database-flat",
+      "file": "./src/icons/database-flat.svg",
+      "codepoint": "60134",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "diagnostics",
@@ -308,18 +360,14 @@
       "file": "./src/icons/docx-blue.svg",
       "codepoint": "60030",
       "aliases": [],
-      "keywords": [
-        "docx"
-      ]
+      "keywords": []
     },
     {
       "name": "docx-filled",
       "file": "./src/icons/docx-filled.svg",
       "codepoint": "60031",
       "aliases": [],
-      "keywords": [
-        "docx"
-      ]
+      "keywords": []
     },
     {
       "name": "download",
@@ -333,18 +381,14 @@
       "file": "./src/icons/download-box.svg",
       "codepoint": "60033",
       "aliases": [],
-      "keywords": [
-        "download"
-      ]
+      "keywords": []
     },
     {
       "name": "download-tray",
       "file": "./src/icons/download-tray.svg",
       "codepoint": "60034",
       "aliases": [],
-      "keywords": [
-        "download"
-      ]
+      "keywords": []
     },
     {
       "name": "edit",
@@ -379,22 +423,29 @@
       "file": "./src/icons/export-tray.svg",
       "codepoint": "60039",
       "aliases": [],
-      "keywords": [
-        "export"
-      ]
+      "keywords": []
     },
     {
       "name": "eye",
       "file": "./src/icons/eye.svg",
       "codepoint": "60112",
-      "aliases": [],
-      "keywords": []
+      "aliases": [
+        "view",
+        "show"
+      ],
+      "keywords": [
+        "preview"
+      ]
     },
     {
       "name": "eye-filled",
       "file": "./src/icons/eye-filled.svg",
       "codepoint": "60113",
-      "aliases": [],
+      "aliases": [
+        "view-filled",
+        "preview-filled",
+        "show-off"
+      ],
       "keywords": []
     },
     {
@@ -419,6 +470,13 @@
       "keywords": []
     },
     {
+      "name": "fold",
+      "file": "./src/icons/fold.svg",
+      "codepoint": "60135",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "gear",
       "file": "./src/icons/gear.svg",
       "codepoint": "60042",
@@ -438,29 +496,57 @@
       "name": "h2",
       "file": "./src/icons/h2.svg",
       "codepoint": "60115",
-      "aliases": [],
-      "keywords": []
+      "aliases": [
+        "heading-2",
+        "heading2",
+        "text-h2"
+      ],
+      "keywords": [
+        "heading",
+        "text"
+      ]
     },
     {
       "name": "h3",
       "file": "./src/icons/h3.svg",
       "codepoint": "60116",
-      "aliases": [],
-      "keywords": []
+      "aliases": [
+        "heading-3",
+        "heading3",
+        "text-h3"
+      ],
+      "keywords": [
+        "heading",
+        "text"
+      ]
     },
     {
       "name": "h4",
       "file": "./src/icons/h4.svg",
       "codepoint": "60117",
-      "aliases": [],
-      "keywords": []
+      "aliases": [
+        "heading-4",
+        "heading4",
+        "text-h4"
+      ],
+      "keywords": [
+        "heading",
+        "text"
+      ]
     },
     {
       "name": "h5",
       "file": "./src/icons/h5.svg",
       "codepoint": "60118",
-      "aliases": [],
-      "keywords": []
+      "aliases": [
+        "heading-5",
+        "heading5",
+        "text-h5"
+      ],
+      "keywords": [
+        "heading",
+        "text"
+      ]
     },
     {
       "name": "image",
@@ -488,7 +574,9 @@
       "file": "./src/icons/italics.svg",
       "codepoint": "60121",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "layout-panel",
@@ -593,7 +681,10 @@
       "name": "lightning-filled",
       "file": "./src/icons/lightning-filled.svg",
       "codepoint": "60125",
-      "aliases": [],
+      "aliases": [
+        "fast",
+        "flash"
+      ],
       "keywords": []
     },
     {
@@ -607,7 +698,9 @@
       "name": "list-unordered",
       "file": "./src/icons/list-unordered.svg",
       "codepoint": "60055",
-      "aliases": [],
+      "aliases": [
+        "list-bulleted"
+      ],
       "keywords": []
     },
     {
@@ -615,8 +708,7 @@
       "file": "./src/icons/minus.svg",
       "codepoint": "60066",
       "aliases": [
-        "remove",
-        "zoom-out"
+        "remove"
       ],
       "keywords": [
         "action",
@@ -638,6 +730,27 @@
       ]
     },
     {
+      "name": "model",
+      "file": "./src/icons/model.svg",
+      "codepoint": "60136",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "model-filled",
+      "file": "./src/icons/model-filled.svg",
+      "codepoint": "60137",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "openai",
+      "file": "./src/icons/openai.svg",
+      "codepoint": "60138",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "origin",
       "file": "./src/icons/origin.svg",
       "codepoint": "60056",
@@ -656,14 +769,18 @@
       "file": "./src/icons/pass.svg",
       "codepoint": "60099",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "circle-check"
+      ]
     },
     {
       "name": "pass-filled",
       "file": "./src/icons/pass-filled.svg",
       "codepoint": "60100",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "circle-check-filled"
+      ]
     },
     {
       "name": "pdf",
@@ -677,18 +794,14 @@
       "file": "./src/icons/pdf-filled.svg",
       "codepoint": "60059",
       "aliases": [],
-      "keywords": [
-        "pdf"
-      ]
+      "keywords": []
     },
     {
       "name": "pdf-red",
       "file": "./src/icons/pdf-red.svg",
       "codepoint": "60060",
       "aliases": [],
-      "keywords": [
-        "pdf"
-      ]
+      "keywords": []
     },
     {
       "name": "pinned",
@@ -696,33 +809,6 @@
       "codepoint": "60061",
       "aliases": [],
       "keywords": []
-    },
-    {
-      "name": "plus",
-      "file": "./src/icons/plus.svg",
-      "codepoint": "60000",
-      "aliases": [
-        "add",
-        "zoom-in"
-      ],
-      "keywords": [
-        "action",
-        "create",
-        "new",
-        "zoom",
-        "zoom-in"
-      ]
-    },
-    {
-      "name": "plus-small",
-      "file": "./src/icons/plus-small.svg",
-      "codepoint": "60001",
-      "aliases": [
-        "add-small"
-      ],
-      "keywords": [
-        "action"
-      ]
     },
     {
       "name": "preview",
@@ -743,23 +829,25 @@
       "file": "./src/icons/projects-filled.svg",
       "codepoint": "60064",
       "aliases": [],
-      "keywords": [
-        "projects"
-      ]
+      "keywords": []
     },
     {
       "name": "quote",
       "file": "./src/icons/quote.svg",
       "codepoint": "60126",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "quotes",
       "file": "./src/icons/quotes.svg",
       "codepoint": "60127",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "text"
+      ]
     },
     {
       "name": "refresh",
@@ -773,7 +861,10 @@
       "file": "./src/icons/rss.svg",
       "codepoint": "60101",
       "aliases": [],
-      "keywords": []
+      "keywords": [
+        "feed",
+        "articles"
+      ]
     },
     {
       "name": "save",
@@ -841,14 +932,18 @@
       "name": "star",
       "file": "./src/icons/star.svg",
       "codepoint": "60128",
-      "aliases": [],
+      "aliases": [
+        "favorites"
+      ],
       "keywords": []
     },
     {
       "name": "star-filled",
       "file": "./src/icons/star-filled.svg",
       "codepoint": "60129",
-      "aliases": [],
+      "aliases": [
+        "favorites-filled"
+      ],
       "keywords": []
     },
     {
@@ -869,7 +964,10 @@
       "name": "three-bars",
       "file": "./src/icons/three-bars.svg",
       "codepoint": "60078",
-      "aliases": [],
+      "aliases": [
+        "menu",
+        "list"
+      ],
       "keywords": []
     },
     {
@@ -917,6 +1015,15 @@
       "name": "underline",
       "file": "./src/icons/underline.svg",
       "codepoint": "60130",
+      "aliases": [],
+      "keywords": [
+        "text"
+      ]
+    },
+    {
+      "name": "unfold",
+      "file": "./src/icons/unfold.svg",
+      "codepoint": "60139",
       "aliases": [],
       "keywords": []
     },
@@ -975,16 +1082,16 @@
       ]
     },
     {
-      "name": "zoom-in-circle",
-      "file": "./src/icons/zoom-in-circle.svg",
-      "codepoint": "60091",
+      "name": "zoom-in",
+      "file": "./src/icons/zoom-in.svg",
+      "codepoint": "60140",
       "aliases": [],
       "keywords": []
     },
     {
-      "name": "zoom-out-circle",
-      "file": "./src/icons/zoom-out-circle.svg",
-      "codepoint": "60093",
+      "name": "zoom-out",
+      "file": "./src/icons/zoom-out.svg",
+      "codepoint": "60141",
       "aliases": [],
       "keywords": []
     }

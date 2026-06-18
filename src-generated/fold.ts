@@ -1,0 +1,1 @@
+export const lxFold = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M11.5 13 8 9.5 4.5 13M4.5 3 8 6.5 11.5 3"/></svg>`;
