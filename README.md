@@ -36,6 +36,30 @@ npm install
 npm run build
 ```
 
+## Licenses
+
+This repository's code is licensed under the [MIT License](./LICENSE).
+
+Some icon assets or brand marks may be subject to their own upstream licenses or trademark rules. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) for the current notices.
+
+Except where explicitly noted in [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md), the SVG icon artwork and generated source files in this repository are intended to be original works distributed by this project under the MIT License.
+
+Third-party names, logos, service marks, and trademarks remain the property of their respective owners and are not transferred, assigned, or relicensed by this repository's MIT License.
+
+## Disclaimer
+
+This project is provided on an "as is" basis, without warranties or guarantees of any kind.
+
+Anyone who uses, redistributes, modifies, or commercializes the icons or generated assets from this repository is solely responsible for checking whether any third-party copyright, trademark, attribution, or other usage restrictions apply to their use case.
+
+In particular, brand-related icons and names may remain subject to their respective owners' trademark or brand-use rules even when the surrounding project code is MIT-licensed.
+
+This repository does not provide legal advice, and the notices here are for project transparency only.
+
+## Rights concerns
+
+If you believe a file in this repository improperly uses your copyright, trademark, or other protected material, please open an issue with the relevant file path and claim so the material can be reviewed and, if appropriate, corrected or removed.
+
 ## GitHub Pages
 
 Run `npm run build` before publishing. The static site is served from `index.html` and `icons.json`, and it reads the SVG files from `src/icons/`.
