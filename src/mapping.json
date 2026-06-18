@@ -248,7 +248,10 @@
     "name": "link-external"
   },
   "60055": {
-    "name": "list-unordered"
+    "name": "list-unordered",
+    "aliases": [
+      "list-bulleted"
+    ]
   },
   "60056": {
     "name": "origin"
@@ -354,7 +357,8 @@
   "60078": {
     "name": "three-bars",
     "aliases": [
-      "menu"
+      "menu",
+      "list"
     ]
   },
   "60079": {
@@ -457,7 +461,6 @@
   "60103": {
     "name": "align-center",
     "keywords": [
-      "list",
       "text"
     ]
   },
@@ -471,14 +474,12 @@
   "60105": {
     "name": "align-left",
     "keywords": [
-      "list",
       "text"
     ]
   },
   "60106": {
     "name": "align-right",
     "keywords": [
-      "list",
       "text"
     ]
   },
