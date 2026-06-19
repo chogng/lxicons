@@ -1,0 +1,1 @@
+export const lxTypography = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><g stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="m1.5 13.5 1-2.4m4 2.4-1-2.4m-3 0L4 7.5l1.5 3.6m-3 0h3M6.5 13.5l1.6-4.4m0 0 2.4-6.6 2.4 6.6 1.6 4.4M8.1 9.1h4.8"/></g></svg>`;

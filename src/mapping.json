@@ -583,5 +583,38 @@
   },
   "60150": {
     "name": "menu"
+  },
+  "60151": {
+    "name": "bold"
+  },
+  "60152": {
+    "name": "claude"
+  },
+  "60153": {
+    "name": "ellipsis"
+  },
+  "60154": {
+    "name": "h1"
+  },
+  "60155": {
+    "name": "layout"
+  },
+  "60156": {
+    "name": "letter-b"
+  },
+  "60157": {
+    "name": "letter-h"
+  },
+  "60158": {
+    "name": "letter-t"
+  },
+  "60159": {
+    "name": "list-filter"
+  },
+  "60160": {
+    "name": "text"
+  },
+  "60161": {
+    "name": "typography"
   }
 }

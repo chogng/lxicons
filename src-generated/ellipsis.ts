@@ -1,0 +1,1 @@
+export const lxEllipsis = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="#000" d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/><circle cx="8" cy="8" r="1" fill="#000"/><path fill="#000" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>`;

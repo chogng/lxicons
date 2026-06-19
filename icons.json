@@ -156,6 +156,13 @@
       "keywords": []
     },
     {
+      "name": "bold",
+      "file": "./src/icons/bold.svg",
+      "codepoint": "60151",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "book",
       "file": "./src/icons/book.svg",
       "codepoint": "60010",
@@ -229,6 +236,13 @@
       "name": "chevron-up",
       "file": "./src/icons/chevron-up.svg",
       "codepoint": "60017",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "claude",
+      "file": "./src/icons/claude.svg",
+      "codepoint": "60152",
       "aliases": [],
       "keywords": []
     },
@@ -405,6 +419,13 @@
       "keywords": []
     },
     {
+      "name": "ellipsis",
+      "file": "./src/icons/ellipsis.svg",
+      "codepoint": "60153",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "enter",
       "file": "./src/icons/enter.svg",
       "codepoint": "60036",
@@ -500,6 +521,13 @@
       "keywords": []
     },
     {
+      "name": "h1",
+      "file": "./src/icons/h1.svg",
+      "codepoint": "60154",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "h2",
       "file": "./src/icons/h2.svg",
       "codepoint": "60117",
@@ -584,6 +612,13 @@
       "keywords": [
         "text"
       ]
+    },
+    {
+      "name": "layout",
+      "file": "./src/icons/layout.svg",
+      "codepoint": "60155",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "layout-panel",
@@ -671,6 +706,27 @@
       "keywords": []
     },
     {
+      "name": "letter-b",
+      "file": "./src/icons/letter-b.svg",
+      "codepoint": "60156",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "letter-h",
+      "file": "./src/icons/letter-h.svg",
+      "codepoint": "60157",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "letter-t",
+      "file": "./src/icons/letter-t.svg",
+      "codepoint": "60158",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "library",
       "file": "./src/icons/library.svg",
       "codepoint": "60124",
@@ -701,6 +757,13 @@
       "name": "link-external",
       "file": "./src/icons/link-external.svg",
       "codepoint": "60056",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "list-filter",
+      "file": "./src/icons/list-filter.svg",
+      "codepoint": "60159",
       "aliases": [],
       "keywords": []
     },
@@ -969,6 +1032,13 @@
       "keywords": []
     },
     {
+      "name": "text",
+      "file": "./src/icons/text.svg",
+      "codepoint": "60160",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "translate",
       "file": "./src/icons/translate.svg",
       "codepoint": "60081",
@@ -1006,6 +1076,13 @@
       "keywords": [
         "txt"
       ]
+    },
+    {
+      "name": "typography",
+      "file": "./src/icons/typography.svg",
+      "codepoint": "60161",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "underline",
