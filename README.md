@@ -1,6 +1,13 @@
 # Lxicons
 
+[![NPM Version](https://img.shields.io/npm/v/@chogng/lxicons)](https://www.npmjs.com/package/@chogng/lxicons)
+[![NPM Downloads](https://img.shields.io/npm/dw/@chogng/lxicons)](https://www.npmjs.com/package/@chogng/lxicons)
+
 This is a public npm package about the customized SVG icon library.
+
+[![Lxicons preview](./lxicons-splash.png)](https://chogng.github.io/lxicons/)
+
+Using the [chogng Lxicon Lookup](https://chogng.github.io/lxicons/) you can preview and search for icons.
 
 ## Install
 
@@ -62,7 +69,11 @@ If you believe a file in this repository improperly uses your copyright, tradema
 
 ## GitHub Pages
 
-Run `npm run build` before publishing. The static site is served from `index.html` and `icons.json`, and it reads the SVG files from `src/icons/`.
+Run `npm run build` before publishing. The build regenerates `icons.json`, and the preview page reads the SVG files from `src/icons/`.
+
+`index.html` is the canonical preview page and is maintained directly in the repository root.
+
+The GitHub Pages workflow publishes `index.html` together with `icons.json` and `src/icons/`.
 
 Static preview: [https://chogng.github.io/lxicons/](https://chogng.github.io/lxicons/)
 
